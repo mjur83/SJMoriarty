@@ -1,0 +1,5 @@
+# Ignore .DS_Store Files
+.DS_Store
+
+# Ignore Config File
+wp-config.php
