@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-    jQuery("#ms-pro-meta-link-wrap").appendTo('#screen-meta-links').show();
+    jQuery("#screen-options-link-wrap").appendTo('#screen-meta-links').show();
 
     // Enable the correct options for this slider type
     var switchType = function(slider) {
@@ -105,8 +105,8 @@ jQuery(document).ready(function($) {
     });
 
     // helptext tooltips
-    jQuery(".metaslider .tipsy-tooltip").tipsy({className: 'msTipsy', live: true, delayIn: 500, html: true, fade: true, gravity: 'e'});
-    jQuery(".metaslider .tipsy-tooltip-top").tipsy({live: true, delayIn: 500, html: true, fade: true, gravity: 'se'});
+    jQuery(".metaslider .tipsy-tooltip").tipsy({className: 'msTipsy', live: true, delayIn: 500, html: true, gravity: 'e'});
+    jQuery(".metaslider .tipsy-tooltip-top").tipsy({live: true, delayIn: 500, html: true, gravity: 'se'});
 
     // Select input field contents when clicked
     jQuery(".metaslider .shortcode input, .metaslider .shortcode textarea").on('click', function() {
@@ -130,7 +130,7 @@ jQuery(document).ready(function($) {
 
     // return lightbox width
     var getLightboxWidth = function() {
-        var width = parseInt(jQuery('input.width').val(), 10) + 'px';
+        var width = parseInt(jQuery('input.width').val(), 10);
 
         if (jQuery('#carouselMode').is(':checked')) {
             width = '75%';
@@ -143,15 +143,14 @@ jQuery(document).ready(function($) {
     var getLightboxHeight = function() {
         var height = parseInt(jQuery('input.height').val(), 10);
 
-        if (!isNaN(height)) {
-            height = height + 80 + 'px'
-        } else {
+        if (isNaN(height)) {
             height = '70%';
+        } else {
+        	height = height + 50;
         }
 
         return height;
     };
-
 
 
     // IE10 treats placeholder text as the actual value of a textarea

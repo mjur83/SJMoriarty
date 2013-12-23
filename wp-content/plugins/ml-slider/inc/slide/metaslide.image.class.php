@@ -101,14 +101,12 @@ class MetaImageSlide extends MetaSlide {
         $str_caption    = __("Caption", 'metaslider');
         $str_new_window = __("New Window", 'metaslider');
         $str_url        = __("URL", 'metaslider');
-        $str_alt        = __("Image Alt", 'metaslider');
-        $str_title      = __("Image Title", 'metaslider');
 
         // slide row HTML
         $row  = "<tr class='slide image flex responsive nivo coin'>";
         $row .= "    <td class='col-1'>";
         $row .= "        <div class='thumb' style='background-image: url({$thumb})'>";
-        $row .= "            <a class='delete-slide confirm' href='?page=metaslider&id={$this->slider->ID}&deleteSlide={$this->slide->ID}'>x</a>";
+        $row .= "            <a class='delete-slide confirm' href='?page=metaslider&amp;id={$this->slider->ID}&amp;deleteSlide={$this->slide->ID}'>x</a>";
         $row .= "            <span class='slide-details'>" . __("Image Slide", "metaslider") . "</span>";
         $row .= "        </div>";
         $row .= "    </td>";
@@ -129,8 +127,10 @@ class MetaImageSlide extends MetaSlide {
         $row .= "                </div>";
         $row .= "            </div>";
         $row .= "            <div class='tab tab-2' style='display: none;'>";
-        $row .= "                <div class='row'><label>" . __("Image Title Text", "metaslider") . "</label><input type='text' size='50' name='attachment[{$this->slide->ID}][title]' placeholder='{$str_title}' value='{$title}' /></div>";
-        $row .= "                <div class='row'><label>" . __("Image Alt Text", "metaslider") . "</label><input type='text' size='50' name='attachment[{$this->slide->ID}][alt]' placeholder='{$str_alt}' value='{$alt}' /></div>";
+        $row .= "                <div class='row'><label>" . __("Image Title Text", "metaslider") . "</label></div>";
+        $row .= "                <div class='row'><input type='text' size='50' name='attachment[{$this->slide->ID}][title]' value='{$title}' /></div>";
+        $row .= "                <div class='row'><label>" . __("Image Alt Text", "metaslider") . "</label></div>";
+        $row .= "                <div class='row'><input type='text' size='50' name='attachment[{$this->slide->ID}][alt]' value='{$alt}' /></div>";
         $row .= "            </div>";
         $row .= "        </div>";
         $row .= "        <input type='hidden' name='attachment[{$this->slide->ID}][type]' value='image' />";
@@ -346,7 +346,7 @@ class MetaImageSlide extends MetaSlide {
             $html .= '<div class="caption-wrap"><div class="caption">' . $slide['caption'] . '</div></div>';
         }
 
-        $anchor_attributes = apply_filters('metaslider_nivo_slider_anchor_attributes', array(
+        $anchor_attributes = apply_filters('metaslider_responsive_slider_anchor_attributes', array(
             'href' => $slide['url'],
             'target' => $slide['target']
         ), $slide, $this->slider->ID);

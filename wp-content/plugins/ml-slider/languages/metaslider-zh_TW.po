@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: metaslider\n"
-"POT-Creation-Date: 2013-12-16 17:32-0000\n"
-"PO-Revision-Date: 2013-12-16 17:32-0000\n"
-"Last-Translator: FB-graphiklab.com <referencement@fb-graphiklab.com>\n"
-"Language-Team: www.fb-graphiklab.com\n"
-"Language: fr_FR\n"
+"Project-Id-Version: metaslider-zh_CN\n"
+"POT-Creation-Date: 2013-12-16 17:31-0000\n"
+"PO-Revision-Date: 2013-12-16 17:31-0000\n"
+"Last-Translator: 断青丝 <181138991@qq.com>\n"
+"Language-Team: 断青丝 <181138991@qq.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #: ../ml-slider.php:102
 msgid "Go Pro"
-msgstr "Passer Pro"
+msgstr "查看專業版"
 
 #: ../ml-slider.php:156
 msgid "Image"
-msgstr "Image"
+msgstr "圖像"
 
 #: ../ml-slider.php:157
 msgid "Add to slider"
-msgstr "Ajouter au diaporama"
+msgstr "添加到幻燈片"
 
 #: ../ml-slider.php:177
 msgid "Post Feed"
-msgstr ""
+msgstr "文章資訊"
 
 #: ../ml-slider.php:178
 msgid "Vimeo"
@@ -40,73 +40,70 @@ msgid "YouTube"
 msgstr ""
 
 #: ../ml-slider.php:180
-#, fuzzy
 msgid "Layer Slide"
-msgstr "Nouveau diaporama"
+msgstr "幻燈片"
 
 #: ../ml-slider.php:235 ../inc/slide/metaslide.image.class.php:103
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: ../ml-slider.php:236 ../inc/slide/metaslide.image.class.php:101
 msgid "Caption"
-msgstr "Légende"
+msgstr "標題"
 
 #: ../ml-slider.php:237 ../inc/slide/metaslide.image.class.php:102
 msgid "New Window"
-msgstr "Nouvelle fenêtre"
+msgstr "新窗口"
 
 #: ../ml-slider.php:238
 msgid "Are you sure?"
-msgstr "Êtes vous sûr ?"
+msgstr "你確定嗎"
 
 #: ../ml-slider.php:242
 msgid ""
 "Caution: This setting is for advanced developers only. If you're unsure, "
 "leave it checked."
-msgstr ""
+msgstr "注意：此功能僅適用於高級開發。"
 
 #: ../ml-slider.php:278
 msgid "Upgrade to Pro $19"
-msgstr ""
+msgstr "升級到專業版只需$19"
 
 #: ../ml-slider.php:294
 msgid "Documentation"
-msgstr "Documentation"
+msgstr "文檔"
 
 #: ../ml-slider.php:430
 msgid "New Slider"
-msgstr "Nouveau diaporama"
+msgstr "新的滑塊"
 
 #: ../ml-slider.php:692
 msgid "New slideshow created. Click 'Add Slide' to get started!"
-msgstr ""
+msgstr "創建新的幻燈片。點擊“添加幻燈片”以開始瀏覽網頁！"
 
 #: ../ml-slider.php:709
 msgid "or"
-msgstr ""
+msgstr "或"
 
 #: ../ml-slider.php:710
-#, fuzzy
 msgid "Add New Slideshow"
-msgstr "Ajouter une diapositive"
+msgstr "添加新的幻燈片"
 
 #: ../ml-slider.php:726
-#, fuzzy
 msgid "Create your first slideshow"
-msgstr "Alignement central du diaporama"
+msgstr "創建第一份幻燈片"
 
 #: ../ml-slider.php:744
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "設置"
 
 #: ../ml-slider.php:745
 msgid "Save"
-msgstr "Sauver"
+msgstr "保存"
 
 #: ../ml-slider.php:746
 msgid "Save & Preview"
-msgstr "Sauver & Prévisualiser"
+msgstr "保存並預覽"
 
 #: ../ml-slider.php:759
 msgid "Flex Slider"
@@ -114,7 +111,7 @@ msgstr ""
 
 #: ../ml-slider.php:760
 msgid "Responsive"
-msgstr "Responsive"
+msgstr "響應"
 
 #: ../ml-slider.php:761
 msgid "Nivo Slider"
@@ -126,11 +123,12 @@ msgstr ""
 
 #: ../ml-slider.php:773 ../ml-slider.php:995
 msgid "Width"
-msgstr "Largeur"
+msgstr "寬度"
 
 #: ../ml-slider.php:775
+#, fuzzy
 msgid "Slideshow width"
-msgstr ""
+msgstr "幻燈片標題"
 
 #: ../ml-slider.php:776 ../ml-slider.php:789
 msgid "px"
@@ -138,104 +136,101 @@ msgstr ""
 
 #: ../ml-slider.php:786 ../ml-slider.php:1008
 msgid "Height"
-msgstr "Hauteur"
+msgstr "高度"
 
 #: ../ml-slider.php:788
+#, fuzzy
 msgid "Slideshow height"
-msgstr ""
+msgstr "幻燈片標題"
 
 #: ../ml-slider.php:795
 msgid "Effect"
-msgstr "Effet"
+msgstr "效果"
 
 #: ../ml-slider.php:797
 msgid "Slide transition effect"
-msgstr "Effet de transition des diapositives"
+msgstr "幻燈片過渡效果"
 
 #: ../ml-slider.php:799 ../ml-slider.php:927
 msgid "Random"
-msgstr "Aléatoire"
+msgstr "隨機"
 
 #: ../ml-slider.php:800
 msgid "Swirl"
-msgstr ""
+msgstr "漩渦"
 
 #: ../ml-slider.php:801
 msgid "Rain"
-msgstr ""
+msgstr "雨點"
 
 #: ../ml-slider.php:802
 msgid "Straight"
-msgstr ""
+msgstr "直接"
 
 #: ../ml-slider.php:803
-#, fuzzy
 msgid "Slide Down"
-msgstr "Sens du défilement"
+msgstr "向下滑動"
 
 #: ../ml-slider.php:804
 msgid "Slice Up"
-msgstr ""
+msgstr "切片"
 
 #: ../ml-slider.php:805
 msgid "Slide Up Left"
-msgstr ""
+msgstr "向左滑動"
 
 #: ../ml-slider.php:806
 msgid "Slice Up Down"
-msgstr ""
+msgstr "切片向下"
 
 #: ../ml-slider.php:807
 msgid "Slide Up Down Left"
-msgstr ""
+msgstr "向上滑動"
 
 #: ../ml-slider.php:808
 msgid "Fold"
-msgstr ""
+msgstr "折疊"
 
 #: ../ml-slider.php:809
 msgid "Fade"
-msgstr ""
+msgstr "褪色"
 
 #: ../ml-slider.php:810
 msgid "Slide In Right"
-msgstr ""
+msgstr "向右滑動"
 
 #: ../ml-slider.php:811
-#, fuzzy
 msgid "Slide In Left"
-msgstr "Effet de transition des diapositives"
+msgstr "向左滑動"
 
 #: ../ml-slider.php:812
-#, fuzzy
 msgid "Box Random"
-msgstr "Aléatoire"
+msgstr "隨機"
 
 #: ../ml-slider.php:813
 msgid "Box Rain"
-msgstr ""
+msgstr "箱式"
 
 #: ../ml-slider.php:814
-#, fuzzy
 msgid "Box Rain Reverse"
-msgstr "Inverser"
+msgstr "箱式反向"
 
 #: ../ml-slider.php:815
 msgid "Box Rain Grow Reverse"
 msgstr ""
 
 #: ../ml-slider.php:816
-#, fuzzy
 msgid "Slide"
-msgstr "Diapositives"
+msgstr "滑動"
 
 #: ../ml-slider.php:823
 msgid "Theme"
-msgstr "Thème"
+msgstr "主題"
 
 #: ../ml-slider.php:825
+#, fuzzy
 msgid "Slideshow theme"
-msgstr ""
+msgstr "幻燈片標題"
 
 #: ../ml-slider.php:827
 msgid "Default"
@@ -255,7 +250,7 @@ msgstr ""
 
 #: ../ml-slider.php:836
 msgid "Arrows"
-msgstr ""
+msgstr "箭頭"
 
 #: ../ml-slider.php:839
 msgid "Show the previous/next arrows"
@@ -263,36 +258,36 @@ msgstr ""
 
 #: ../ml-slider.php:844
 msgid "Navigation"
-msgstr ""
+msgstr "導航"
 
 #: ../ml-slider.php:847
 #, fuzzy
 msgid "Show the slide navigation bullets"
-msgstr "Montrer la rangée de navigation du diaporama"
+msgstr "顯示幻燈片導航"
 
 #: ../ml-slider.php:849
 msgid "Hidden"
-msgstr ""
+msgstr "隱藏"
 
 #: ../ml-slider.php:850
 msgid "Dots"
-msgstr ""
+msgstr "點"
 
 #: ../ml-slider.php:851
 msgid "Thumbnails (Pro)"
-msgstr ""
+msgstr "縮略圖（臨）"
 
 #: ../ml-slider.php:862
 msgid "Title"
-msgstr ""
+msgstr "標題"
 
 #: ../ml-slider.php:863
 msgid "Slideshow title"
-msgstr ""
+msgstr "幻燈片標題"
 
 #: ../ml-slider.php:877
 msgid "Advanced Settings"
-msgstr "Paramètres avancés"
+msgstr "高級設置"
 
 #: ../ml-slider.php:886
 msgid "Stretch"
@@ -305,19 +300,19 @@ msgstr ""
 #: ../ml-slider.php:890
 #, fuzzy
 msgid "Stretch the slideshow output to fill it's parent container"
-msgstr "Démarrer le diaporama au chargement de la page"
+msgstr "在頁面加載啟動幻燈片"
 
 #: ../ml-slider.php:895
 msgid "Center align"
-msgstr "Alignement central"
+msgstr "居中對齊"
 
 #: ../ml-slider.php:898
 msgid "Center align the slideshow"
-msgstr "Alignement central du diaporama"
+msgstr "居中對齊幻燈片"
 
 #: ../ml-slider.php:903
 msgid "Auto play"
-msgstr "Lecture auto"
+msgstr "自動播放"
 
 #: ../ml-slider.php:906
 msgid "Transition between slides automatically"
@@ -325,20 +320,19 @@ msgstr ""
 
 #: ../ml-slider.php:911
 msgid "Smart crop"
-msgstr "Cadrage intelligent"
+msgstr "智能裁剪"
 
 #: ../ml-slider.php:914
 msgid ""
 "Smart Crop ensures your responsive slides are cropped to a ratio that "
 "results in a consistent slideshow size"
 msgstr ""
-"Cadrage intelligent veille à ce que les diapositives \"responsives\" soient "
-"recadrés à un ratio qui aboutit à une taille compatible avec celle du "
-"diaporama"
+"智能裁剪，將您的幻燈片圖片裁剪到一個相同比例，使其顯示結果在幻燈片中大小保存"
+"一致。"
 
 #: ../ml-slider.php:919
 msgid "Carousel mode"
-msgstr "Mode carrousel"
+msgstr "傳送帶模式"
 
 #: ../ml-slider.php:922
 msgid "Display multiple slides at once. Slideshow output will be 100% wide."
@@ -346,157 +340,153 @@ msgstr ""
 
 #: ../ml-slider.php:930
 msgid "Randomise the order of the slides"
-msgstr "Aléatorisation de l'ordre des diapositives"
+msgstr "幻燈片順序隨機"
 
 #: ../ml-slider.php:935
 msgid "Hover pause"
-msgstr "Pause au survol"
+msgstr "懸停時間"
 
 #: ../ml-slider.php:938
 #, fuzzy
 msgid ""
 "Pause the slideshow when hovering over slider, then resume when no longer "
 "hovering."
-msgstr ""
-"Mettre le diaporama en pause au survol, puis reprendre lorsqu'il ne l'est "
-"plus"
+msgstr "當鼠標懸停在圖片上時暫停幻燈片"
 
 #: ../ml-slider.php:943
 msgid "Reverse"
-msgstr "Inverser"
+msgstr "逆轉"
 
 #: ../ml-slider.php:946
 msgid "Reverse the animation direction"
-msgstr "Inverser le sens de l'animation"
+msgstr "反向動畫"
 
 #: ../ml-slider.php:956
 msgid "Slide delay"
-msgstr "Délai entre les diapositives"
+msgstr "動畫延遲"
 
 #: ../ml-slider.php:958
 msgid "How long to display each slide, in milliseconds"
-msgstr "Durée d'affichage de chaque diapositive, en millisecondes"
+msgstr "幻燈片的播放間隔，單位毫秒"
 
 #: ../ml-slider.php:959 ../ml-slider.php:972 ../ml-slider.php:985
 #: ../ml-slider.php:1061 ../ml-slider.php:1087
 msgid "ms"
-msgstr "ms"
+msgstr "毫秒"
 
 #: ../ml-slider.php:969
 msgid "Animation speed"
-msgstr "Vitesse d'animation"
+msgstr "動畫速度"
 
 #: ../ml-slider.php:971
 msgid "Set the speed of animations, in milliseconds"
-msgstr "Définir la vitesse des animations, en millisecondes"
+msgstr "設置動畫的速度，單位毫秒"
 
 #: ../ml-slider.php:982 ../ml-slider.php:984
 msgid "Number of slices"
-msgstr "Nombre de tranches"
+msgstr "切片數"
 
 #: ../ml-slider.php:995 ../ml-slider.php:997 ../ml-slider.php:1008
 #: ../ml-slider.php:1010
 msgid "Number of squares"
-msgstr "Nombre de carrés"
+msgstr "方格數"
 
 #: ../ml-slider.php:1016
 msgid "Slide direction"
-msgstr "Sens du défilement"
+msgstr "滑動方向"
 
 #: ../ml-slider.php:1018
 msgid "Select the sliding direction"
-msgstr "Choisissez le sens du défilement"
+msgstr "選擇的滑動方向"
 
 #: ../ml-slider.php:1021
 msgid "Horizontal"
-msgstr "Horizontal"
+msgstr "橫向"
 
 #: ../ml-slider.php:1022
 msgid "Vertical"
-msgstr "Vertical"
+msgstr "垂直"
 
 #: ../ml-slider.php:1028
 msgid "Easing"
-msgstr "Easing"
+msgstr "緩和"
 
 #: ../ml-slider.php:1030
 msgid "Animation easing effect"
-msgstr "Effet \"easing\" de l'animation"
+msgstr "動畫寬鬆效果"
 
 #: ../ml-slider.php:1037
 msgid "Previous text"
-msgstr "Précédent"
+msgstr "上一張圖片"
 
 #: ../ml-slider.php:1039
 msgid "Set the text for the 'previous' direction item"
-msgstr "Définir le texte pour l'élément de direction «précédent»"
+msgstr "選擇圖片為“上一張”"
 
 #: ../ml-slider.php:1045
 msgid "Next text"
-msgstr "Suivant"
+msgstr "下一張圖片"
 
 #: ../ml-slider.php:1047
 msgid "Set the text for the 'next' direction item"
-msgstr "Définir le texte pour l'élément de direction «suivant»"
+msgstr "選擇圖片為'下一張'"
 
 #: ../ml-slider.php:1058
 msgid "Square delay"
-msgstr "Délai entre les carrés"
+msgstr "延遲"
 
 #: ../ml-slider.php:1060
 #, fuzzy
 msgid "Delay between squares in ms"
-msgstr "Délai entre les carrés en millisecondes"
+msgstr "以毫秒為單位"
 
 #: ../ml-slider.php:1071
 msgid "Opacity"
-msgstr "Opacité"
+msgstr "透明度"
 
 #: ../ml-slider.php:1073
 msgid "Opacity of title and navigation"
-msgstr "Opacité du titre et de la navigation"
+msgstr "標題和導航的透明度"
 
 #: ../ml-slider.php:1084
 msgid "Caption speed"
-msgstr "Vitesse de la légende"
+msgstr "速度"
 
 #: ../ml-slider.php:1086
-#, fuzzy
 msgid "Set the fade in speed of the caption"
-msgstr "Régler le fondu de la vitesse de la légende"
+msgstr "設置速度的標題淡入"
 
 #: ../ml-slider.php:1093
 #, fuzzy
 msgid "Developer options"
-msgstr "Options pour les développeurs"
+msgstr "開發人員選項"
 
 #: ../ml-slider.php:1098
 msgid "CSS classes"
-msgstr "Classes CSS"
+msgstr "CSS 類"
 
 #: ../ml-slider.php:1100
 msgid ""
 "Specify any custom CSS Classes you would like to be added to the slider "
 "wrapper"
-msgstr ""
-"Spécifiez des classes CSS personnalisés que vous souhaitez ajouter à "
-"l'enveloppe (wrapper) du diaporama"
+msgstr "指定的任何自定義CSS類"
 
 #: ../ml-slider.php:1106
 msgid "Print CSS"
-msgstr "Imprimer CSS"
+msgstr "顯示CSS"
 
 #: ../ml-slider.php:1109
 msgid "Uncheck this is you would like to include your own CSS"
-msgstr "Décochez ceci si vous souhaitez inclure votre propre CSS"
+msgstr "取消選中，則使用主題自身的CSS"
 
 #: ../ml-slider.php:1114
+#, fuzzy
 msgid "Print JS"
-msgstr "Imprimer JS"
+msgstr "顯示JavaScript"
 
 #: ../ml-slider.php:1117
 msgid "Uncheck this is you would like to include your own Javascript"
-msgstr "Décochez ceci si vous souhaitez inclure votre propre Javascript"
+msgstr "取消選中，則使用主題自身的Javascript"
 
 #: ../ml-slider.php:1122
 msgid "No conflict mode"
@@ -508,15 +498,15 @@ msgstr ""
 
 #: ../ml-slider.php:1139
 msgid "Usage"
-msgstr "Utilisation"
+msgstr "使用方法"
 
 #: ../ml-slider.php:1142
 msgid "Shortcode"
-msgstr "Shortcode"
+msgstr "簡碼"
 
 #: ../ml-slider.php:1143
 msgid "Template Include"
-msgstr "Inclusion template"
+msgstr "使用在主題代碼中的代碼"
 
 #: ../ml-slider.php:1147
 msgid "Copy & paste the shortcode directly into any WordPress post or page."
@@ -530,15 +520,15 @@ msgstr ""
 
 #: ../ml-slider.php:1179
 msgid "Delete Slider"
-msgstr "Effacer diaporama"
+msgstr "刪除幻燈片"
 
 #: ../ml-slider.php:1190
 msgid "Slides"
-msgstr "Diapositives"
+msgstr "幻燈片"
 
 #: ../ml-slider.php:1193 ../ml-slider.php:1194
 msgid "Add Slide"
-msgstr "Ajouter une diapositive"
+msgstr "添加幻燈片"
 
 #: ../ml-slider.php:1224
 msgid "Select slideshow to insert into post"
@@ -547,7 +537,7 @@ msgstr ""
 #: ../ml-slider.php:1227
 #, fuzzy
 msgid "Add slider"
-msgstr "Ajouter au diaporama"
+msgstr "添加到幻燈片"
 
 #: ../ml-slider.php:1258
 msgid "Insert Meta Slider"
@@ -556,40 +546,40 @@ msgstr ""
 #: ../ml-slider.php:1260
 #, fuzzy
 msgid "Choose slideshow"
-msgstr "Alignement central du diaporama"
+msgstr "沒有幻燈片"
 
 #: ../ml-slider.php:1267 ../inc/metaslider.widget.class.php:124
 msgid "No slideshows found"
-msgstr ""
+msgstr "沒有幻燈片"
 
 #: ../inc/metaslider.widget.class.php:18
 msgid "Meta Slider"
-msgstr "Meta Slider"
+msgstr "多彩幻燈片"
 
 #: ../inc/metaslider.widget.class.php:111
 msgid "Title:"
-msgstr ""
+msgstr "標題："
 
 #: ../inc/metaslider.widget.class.php:114
 msgid "Select Slider:"
-msgstr ""
+msgstr "選擇幻燈片："
 
 #: ../inc/slide/metaslide.image.class.php:23
 msgid "Security check failed. Refresh page and try again."
-msgstr ""
+msgstr "安全檢查失敗。刷新頁面，然後重試。"
 
 #: ../inc/slide/metaslide.image.class.php:36
 msgid "Failed to add slide. Slide already exists in slideshow."
-msgstr ""
+msgstr "無法添加幻燈片。"
 
 #: ../inc/slide/metaslide.image.class.php:38
 msgid "Failed to add slide. Slide is not of type 'image'."
-msgstr ""
+msgstr "未能添加幻燈片。幻燈片類型不正確'。"
 
 #: ../inc/slide/metaslide.image.class.php:110
 #, fuzzy
 msgid "Image Slide"
-msgstr "Nouveau diaporama"
+msgstr "幻燈片"
 
 #: ../inc/slide/metaslide.image.class.php:115
 msgid "General"
@@ -601,7 +591,7 @@ msgstr ""
 
 #: ../inc/slide/metaslide.image.class.php:121
 msgid "Warning: Image data does not exist. Please re-upload the image."
-msgstr ""
+msgstr "警告：圖像數據不存在。請重新上傳圖片。"
 
 #: ../inc/slide/metaslide.image.class.php:130
 msgid "Image Title Text"
@@ -612,48 +602,30 @@ msgid "Image Alt Text"
 msgstr ""
 
 #~ msgid "Change the slider style"
-#~ msgstr "Changer le style du diaporama"
+#~ msgstr "更改滑蓋造型"
 
 #~ msgid ""
 #~ "Display as carousel - when selected the effect and direction options will "
 #~ "be ignored."
-#~ msgstr ""
-#~ "Afficher sous forme de carrousel - lorsque sélectionné l'effet et les "
-#~ "options de direction seront ignorées."
+#~ msgstr "顯示為旋轉- 當選擇後其他效果和方向設置將被忽略。"
 
 #~ msgid "Version"
-#~ msgstr "Version"
-
-#~ msgid "Yes"
-#~ msgstr "Oui"
-
-#~ msgid "No"
-#~ msgstr "Non"
+#~ msgstr "版本"
 
 #~ msgid "Size"
-#~ msgstr "Taille"
-
-#~ msgid "kb"
-#~ msgstr "kb"
+#~ msgstr "大小"
 
 #~ msgid "Mobile Friendly"
-#~ msgstr "Compatible Mobiles"
+#~ msgstr "移動"
 
 #~ msgid "Set the initial size for the slides (width x height)"
-#~ msgstr "Définissez la taille initiale des diapositives (largeur x hauteur)"
+#~ msgstr "設置幻燈片的初始大小（ 寬 x 高 ）"
 
 #~ msgid "Controls"
-#~ msgstr "Contrôles"
+#~ msgstr "控制"
 
 #~ msgid "Number of squares (width x height)"
-#~ msgstr "Nombre de carrés (largeur x hauteur)"
-
-#, fuzzy
-#~ msgid "Print Scripts"
-#~ msgstr "Imprimer JS"
+#~ msgstr "寬 x 高"
 
 #~ msgid "More Slide Types"
-#~ msgstr "Autres types de diapositive"
-
-#~ msgid "Support Meta Slider"
-#~ msgstr "Soutenir Meta Slider"
+#~ msgstr "更多幻灯片类型"

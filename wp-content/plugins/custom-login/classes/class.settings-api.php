@@ -14,7 +14,7 @@ if ( !class_exists( 'Extendd_Plugin_Settings_API' ) ):
 	/**
 	 * Version
 	 */
-	var $api_version = '1.0.8';
+	var $api_version = '1.0.9';
 
     /**
      * settings sections array
@@ -134,14 +134,15 @@ if ( !class_exists( 'Extendd_Plugin_Settings_API' ) ):
 		wp_enqueue_style( 'wp-color-picker' );
 		
 		/* jQuery Chosen */
-		wp_enqueue_script( 'jquery-chosen', plugins_url( 'assets/js/chosen.jquery.min.js', CUSTOM_LOGIN_FILE ), array( 'jquery' ), '0.9.12', false );
-		wp_enqueue_style( 'jquery-chosen', plugins_url( 'assets/css/chosen.css', CUSTOM_LOGIN_FILE ), false, '0.9.12', 'screen' );
+		wp_enqueue_script( 'jquery-chosen', plugins_url( 'assets/js/chosen.jquery.min.js', CUSTOM_LOGIN_FILE ), array( 'jquery' ), '1.0.0', false );
+		wp_enqueue_style( 'jquery-chosen', plugins_url( 'assets/css/chosen.css', CUSTOM_LOGIN_FILE ), false, '1.0.0', 'screen' );
 		
 		/* Admin */
-		wp_enqueue_style( $this->domain, plugins_url( 'assets/css/admin.css', CUSTOM_LOGIN_FILE ), false, '', 'screen' );
+		wp_enqueue_script( $this->domain, plugins_url( 'assets/js/admin.js', CUSTOM_LOGIN_FILE ), array( 'jquery' ), $this->version, false );
+		wp_enqueue_style( $this->domain, plugins_url( 'assets/css/admin.css', CUSTOM_LOGIN_FILE ), false, $this->version, 'screen' );
 		
 		/* Genericons */
-		wp_enqueue_style( 'genericons', plugins_url( 'assets/css/genericons.css', CUSTOM_LOGIN_FILE ), false, '', 'screen' );
+		wp_enqueue_style( 'genericons', plugins_url( 'assets/css/genericons.css', CUSTOM_LOGIN_FILE ), false, $this->version, 'screen' );
     }
 
     /**

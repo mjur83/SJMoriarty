@@ -22,7 +22,10 @@ if ( false === ( $css = get_transient( $login->id . '_style' ) ) ) :
 	$css = '';
 	$close_rule = "}\n";
 	
-	if ( defined( 'WP_LOCAL_DEV' ) && WP_LOCAL_DEV ) $css .= "/**\n *\n" . print_r( $cl_css_atts, true ) . " */\n\n";
+	if ( defined( 'WP_LOCAL_DEV' ) && WP_LOCAL_DEV ) {
+		
+		$css .= "/**\n *\n" . print_r( $cl_css_atts, true ) . " */\n\n";
+	}
 		
 	$css .= "
 /**
@@ -179,15 +182,26 @@ if ( false === ( $css = get_transient( $login->id . '_style' ) ) ) :
 			
 		if ( !empty( $logo_background_size ) && 'none' !== $logo_background_size ) {
 			
-			$size = !empty( $logo_background_size_custom ) ? $logo_background_size_custom : '100% auto';
-			$logo_background_size = ( 'flex' !== $logo_background_size ) ? $logo_background_size : $size;
+			$logo_background_size = ( 'flex' !== $logo_background_size ) ? $logo_background_size : '100% auto';
 			$css .= prefixit( 'background-size', $logo_background_size );
 			
-		} elseif ( !empty( $logo_background_size_custom ) ) { 
+		} elseif ( !empty( $logo_background_size_custom ) && 'custom' === $logo_background_size ) { 
 		
 			$css .= prefixit( 'background-size', $logo_background_size_custom );
 			
+		} else {
+			$css .= prefixit( 'background-size', 'inherit' );
 		}
+		
+		/* Get width & height from attachment image *
+		$attachment			= get_attached_file_id_from_url( $logo_background_url );
+		$attachment_id		= isset( $attachment[0] ) && !empty( $attachment[0] ) ? $attachment[0]->ID : $attachment;
+		$image_attributes 	= wp_get_attachment_image_src( $attachment_id ); // returns an array
+		$css .= !empty( $image_attributes[2] ) ? trailingsemicolonit( "height: {$image_attributes[2]}" ) : trailingsemicolonit( "height: inherit" );
+		$css .= !empty( $image_attributes[1] ) ? trailingsemicolonit( "width: {$image_attributes[1]}" ) : trailingsemicolonit( "width: inherit" );
+		 */
+		 $css .= !empty( $logo_background_height ) ? trailingsemicolonit( "height: {$logo_background_height}" ) : trailingsemicolonit( "height: inherit" );
+		 $css .= !empty( $logo_background_width ) ? trailingsemicolonit( "width: {$logo_background_width}" ) : trailingsemicolonit( "width: inherit" );
 		
 		/* CLOSE login h1 a */
 		$css .= $close_rule;

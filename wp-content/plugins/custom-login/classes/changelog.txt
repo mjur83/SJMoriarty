@@ -1,3 +1,8 @@
+Version 1.0.9 (12/17/13)
+
+Added admin.js
+Updated chosen().js to version 1.0.0
+
 Version 1.0.8 (12/3/13)
 
 Make sure the $announcement isn't empty or has error before caching.
